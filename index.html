@@ -13,10 +13,14 @@
   <div class="container">
     <h1>Find Out What Language to Learn!</h1>
     <form id='program-suggestor'>
+      <div class="form-group">
+        <label id="nameInput" for="name">Enter your name: </label>
+        <input type="text" class="form-control" id="name">
+      </div>
       <h3 class="jumbotron">1: What sounds safest to you?</h3>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="safest" id="inlineRadio1" value="1">
-        <label class="form-check-label" for="inlineRadio1">Skydiving</label>
+        <input class="form-check-input" type="radio" name="safest" id="inlineRadio1" value="1" required>
+        <label class="form-check-label" for="inlineRadio1" checked>Skydiving</label>
       </div>
       <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="safest" id="inlineRadio2" value="2">
@@ -29,7 +33,7 @@
       <!-- QUESTION 2 -->
       <h3 class="jumbotron"> 2: What is your favorite way to make an egg?</h3>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="eggs" id="inlineRadio1" value="1">
+        <input class="form-check-input" type="radio" name="eggs" id="inlineRadio1" value="1" required>
         <label class="form-check-label" for="inlineRadio1">Scrambled</label>
       </div>
       <div class="form-check form-check-inline">
@@ -43,7 +47,7 @@
       <!-- QUESTION 3 -->
       <h3 class="jumbotron">3: Pick a Streaming Service?</h3>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="streaming" id="netflix" value="1">
+        <input class="form-check-input" type="radio" name="streaming" id="netflix" value="1" required>
         <label class="form-check-label" for="netflix">Netflix</label>
       </div>
       <div class="form-check form-check-inline">
@@ -57,7 +61,7 @@
       <!-- QUESSTION 4 -->
       <h3 class="jumbotron">4: Ideal Roadtrip activities?</h3>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="road-trip" id="festival" value="1">
+        <input class="form-check-input" type="radio" name="road-trip" id="festival" value="1" required>
         <label class="form-check-label" for="festival">Music Festival</label>
       </div>
       <div class="form-check form-check-inline">
@@ -71,7 +75,7 @@
       <!-- QUESTION 5 -->
       <h3 class="jumbotron">5: Favorite reality tv show?</h3>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="reality" id="jersey-shore" value="1">
+        <input class="form-check-input" type="radio" name="reality" id="jersey-shore" value="1" required>
         <label class="form-check-label" for="jersey-shore">Jersey Shore</label>
       </div>
       <div class="form-check form-check-inline">
