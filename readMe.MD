@@ -13,6 +13,7 @@ This website is a quiz that the user will answer questions and receive an output
 * Second, enter name in to the white input box.
 * Third, go through and answer all 5 questions.
 * Fourth, click the 'Ready to find out!' button
+* If you miss answering one of the questions or don't enter your name a box will pop up and remind you.
 * Lastly, scroll down a bit more to see the results fade in.
 
 

@@ -22,6 +22,11 @@ h3 {
   margin-bottom: 7%;
 }
 
+ .btn:hover{
+   background-color: white;
+   color: black;
+   cursor: help;
+ }
 img {
   height: 10%;
   width: 10%;
@@ -59,10 +64,26 @@ label:hover {
   background-color: #D1B1C8;
 }
 
-#output {
-  border: 5px groove #B1B7D1;
-  border-radius: 30%;
+.python {
+  border: 5px groove black;
   background-color: #839D9A;
+  border-radius: 30%;
+}
+.ruby {
+  border: 5px groove black;
+  background-color: #B75D69;
+  border-radius: 30%;
+  color: white;
+}
+.javaScript {
+  border: 5px groove black;
+  background-color: #E98A15;
+  border-radius: 30%;
+}
+.c-sharp {
+  border: 5px groove black;
+  background-color: #59114D;
+  border-radius: 30%;
 }
 
 .name-edit {

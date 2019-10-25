@@ -23,7 +23,7 @@ $(document).ready(function() {
       $('.ruby, .python, .javaScript').hide();
     }
     $('.name').text(name);
-    $('#output').fadeIn(1000);
+    $('#output').fadeIn(10000);
 
 
   });
