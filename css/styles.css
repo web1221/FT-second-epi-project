@@ -10,6 +10,14 @@ h3 {
 .form-check-label {
   margin-left: 10px;
   margin-right: 10px;
-  padding-left: 50px;
+  padding-left: 5px;
 
 }
+ button {
+   margin-top: 50px;
+   margin-left: 250px;
+ }
+
+input {
+   margin: 0px;
+ }

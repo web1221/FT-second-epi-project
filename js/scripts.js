@@ -18,10 +18,10 @@ $(document).ready(function() {
     var result = question1 + question2 + question3 + question4 + question5;
     console.log(question1 + question2 + question3 + question4 + question5)
 
-      if (result <= 7) {
+      if (result <= 8) {
         $('.ruby').show();
         $('.python, .javaScript, .c-sharp').hide();
-      } else if ((result <= 12) && (result > 7)) {
+      } else if ((result <= 12) && (result > 8)) {
         $('.python').show();
         $('.ruby, .javaScript, .c-sharp').hide();
       } else if ((result > 12) && (result <= 15)) {
