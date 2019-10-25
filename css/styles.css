@@ -70,20 +70,21 @@ h3 {
 
   .name-edit {
     border: 3px dotted black;
-    display: inline-flex;
+    background-color: yellow;
     margin-left: 50px;
 
   }
 
   #nameInput {
-    margin: 10px;
-    margin-right: 10px;
+    margin-top: 14px;
+    display: inline-flex;
+
+    background-color: red;
 
   }
-  /* .form-control {
+  .form-control {
     padding-top: 1%;
-    margin-right: 200px;
-    margin-top: 10px;
-    margin-left: 20px;
-    padding-right: 20%;
-  } */
+    margin: 25px;
+    padding-right: 15px;
+    background-color: green;
+  }
