@@ -16,7 +16,10 @@ h3 {
  .btn {
    margin-top: 50px;
    margin-left: 439px;
-
+   background-color: rgb(0,0,0,0.79);
+   color: white;
+   border-color: #214F4B;
+   margin-bottom: 7%;
  }
 
  img {
@@ -48,7 +51,7 @@ h3 {
  body {
    background-color: #C2C1A5;
  }
- label{
+ .form-check-label{
    border: 3px solid #596869;
    padding: 10px;
 
@@ -65,7 +68,22 @@ h3 {
    padding: 10px;
   }
 
-  #nameInput {
-    display: flex;
+  .name-edit {
+    border: 3px dotted black;
+    display: inline-flex;
+    margin-left: 50px;
 
   }
+
+  #nameInput {
+    margin: 10px;
+    margin-right: 10px;
+
+  }
+  /* .form-control {
+    padding-top: 1%;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-right: 20%;
+  } */
