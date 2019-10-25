@@ -21,7 +21,7 @@ h3 {
  img {
    height: 10%;
    width: 10%;
-   display: inline-block;
+
    margin-left: 10px;
 
 
@@ -29,10 +29,21 @@ h3 {
 
  h4{
    text-align: center;
+   border:
  }
 
  h1 {
    text-align: center;
    text-decoration: underline;
    text-shadow: 50%;
+ }
+
+ .jumbotron {
+   background-color: rgb(54,69,59, 0.6);
+   color: #F5F9E9;
+   background
+ }
+
+ body {
+   background-color: #C2C1A5;
  }
