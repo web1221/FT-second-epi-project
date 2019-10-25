@@ -5,12 +5,13 @@
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="js/jquery-3.4.1.js"></script>
-  <script src="scripts.js"></script>
+  <script src="js/scripts.js"></script>
   <title></title>
 </head>
 
 <body>
   <div class="container">
+    <h1>Find Out What Language to Learn!</h1>
     <form id='program-suggestor'>
       <h3 class="jumbotron">1: What sounds safest to you?</h3>
       <div class="form-check form-check-inline">
@@ -70,17 +71,19 @@
       <!-- QUESTION 5 -->
       <h3 class="jumbotron">5: Favorite reality tv show?</h3>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="jersey-shore" id="inlineRadio1" value="1">
-        <label class="form-check-label" for="inlineRadio1">Jersey Shore</label>
+        <input class="form-check-input" type="radio" name="reality" id="jersey-shore" value="1">
+        <label class="form-check-label" for="jersey-shore">Jersey Shore</label>
       </div>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="housewives" id="inlineRadio2" value="2">
-        <label class="form-check-label" for="inlineRadio2">Real Housewives</label>
+        <input class="form-check-input" type="radio" name="reality" id="housewives" value="2">
+        <label class="form-check-label" for="housewives">Real Housewives</label>
       </div>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="flavLove" id="inlineRadio3" value="3">
-        <label class="form-check-label" for="inlineRadio3">Flavor of Love</label>
+        <input class="form-check-input" type="radio" name="reality" id="reality" value="3">
+        <label class="form-check-label" for="reality">Flavor of Love</label>
       </div>
+      <br>
+      <button type="submit" class="btn btn-primary">Ready to find out!</button>
     </form>
     <div id="output">
       <div class="ruby">
