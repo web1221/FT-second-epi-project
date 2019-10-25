@@ -7,8 +7,8 @@ h3 {
   text-align: center;
 }
 
-.form-check-label {
-  margin-left: 10px;
+.form-check-inline {
+  margin-left: 150px;
   margin-right: 10px;
   padding-left: 5px;
 
@@ -18,6 +18,8 @@ h3 {
    margin-left: 250px;
  }
 
-input {
-   margin: 0px;
+ img {
+   height: 15%;
+   width: 15%;
+
  }

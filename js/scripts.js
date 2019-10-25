@@ -29,7 +29,7 @@ $(document).ready(function() {
         $('.ruby, .python, .c-sharp').hide();
       } else {
         $('.c-sharp').show();
-        $('.ruby, .python, .javaScript');
+        $('.ruby, .python, .javaScript'),hide();
       }
 
       $('#output').show();
