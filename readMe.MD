@@ -9,7 +9,7 @@ This website is a quiz that the user will answer questions and receive an output
 
 ## Setup/Installation Requirements
 
-* First, open HTML File.
+* First, open HTML File or visit https://web1221.github.io/FT-second-epi-project/.
 * Second, enter name in to the white input box.
 * Third, go through and answer all 5 questions.
 * Fourth, click the 'Ready to find out!' button
