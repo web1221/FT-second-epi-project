@@ -17,7 +17,9 @@ $(document).ready(function() {
     var question5 = parseInt($('input:radio[name=reality]:checked').val());
     var result = question1 + question2 + question3 + question4 + question5;
     console.log(question1 + question2 + question3 + question4 + question5)
-
+      if (question1 || question2 || question3 || question4 || question5 === 'NaN'
+        alert('Please answer all question')
+      }
       if (result <= 8) {
         $('.ruby').show();
         $('.python, .javaScript, .c-sharp').hide();

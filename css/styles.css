@@ -13,9 +13,10 @@ h3 {
   padding-left: 5px;
 
 }
- button {
+ .btn {
    margin-top: 50px;
    margin-left: 439px;
+
  }
 
  img {
@@ -47,3 +48,16 @@ h3 {
  body {
    background-color: #C2C1A5;
  }
+ label{
+   border: 3px solid #596869;
+   padding: 10px;
+
+ }
+ label:hover {
+   background-color: #D1B1C8;
+ }
+
+ #output {
+   border: 5px ridge #B1B7D1;
+   border-radius: 50%
+  }
