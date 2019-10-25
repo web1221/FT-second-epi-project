@@ -8,23 +8,22 @@ $(document).ready(function() {
     var question4 = parseInt($('input:radio[name=road-trip]:checked').val());
     var question5 = parseInt($('input:radio[name=reality]:checked').val());
     var result = question1 + question2 + question3 + question4 + question5;
-    console.log(question1 + question2 + question3 + question4 + question5)
 
-      if (result <= 8) {
-        $('.ruby').show();
-        $('.python, .javaScript, .c-sharp').hide();
-      } else if ((result <= 12) && (result > 8)) {
-        $('.python').show();
-        $('.ruby, .javaScript, .c-sharp').hide();
-      } else if ((result > 12) && (result <= 15)) {
-        $('.javaScript').show();
-        $('.ruby, .python, .c-sharp').hide();
-      } else {
-        $('.c-sharp').show();
-        $('.ruby, .python, .javaScript').hide();
-      }
-      $('.name').text(name);
-      $('#output').fadeIn(1000);
+    if (result <= 8) {
+      $('.ruby').show();
+      $('.python, .javaScript, .c-sharp').hide();
+    } else if ((result <= 12) && (result > 8)) {
+      $('.python').show();
+      $('.ruby, .javaScript, .c-sharp').hide();
+    } else if ((result > 12) && (result <= 15)) {
+      $('.javaScript').show();
+      $('.ruby, .python, .c-sharp').hide();
+    } else {
+      $('.c-sharp').show();
+      $('.ruby, .python, .javaScript').hide();
+    }
+    $('.name').text(name);
+    $('#output').fadeIn(1000);
 
 
   });
