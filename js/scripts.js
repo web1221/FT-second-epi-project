@@ -1,16 +1,7 @@
-// languages = function(para1, para2, para3, para4, para5) {
-//   var result = para1 + para2 + para3 + para4 + para5;
-//   if (result <= 7) {
-//     return true
-//   } else if result <= 12) {
-//
-//   }
-
-
-
 $(document).ready(function() {
   $('form#program-suggestor').submit(function(event) {
     event.preventDefault();
+    var name = $('input#name').val();
     var question1 = parseInt($('input:radio[name=safest]:checked').val());
     var question2 = parseInt($('input:radio[name=eggs]:checked').val());
     var question3 = parseInt($('input:radio[name=streaming]:checked').val());
@@ -32,8 +23,8 @@ $(document).ready(function() {
         $('.c-sharp').show();
         $('.ruby, .python, .javaScript').hide();
       }
-
-      $('#output').show();
+      $('.name').text(name);
+      $('#output').fadeIn(1000);
 
 
   });

@@ -66,5 +66,6 @@ h3 {
   }
 
   #nameInput {
-    display: block;
+    display: flex;
+
   }
